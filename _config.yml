@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Serge Aleshin-Guendel"
   avatar           : "serge.jpg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : 
   location         : "Seattle, WA"
-  employer         :
+  employer         : "University of Washington"
   pubmed           :
   googlescholar    :
   email            :
