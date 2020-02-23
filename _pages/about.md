@@ -14,4 +14,4 @@ During my first year I was a research assistant in [Ruth Etzioni's group](https:
 
 Originally from Maryland, I graduated from Boston College with a B.S. in Math and a B.A. in Computer Science. Outside of school, I enjoy drinking tea, (binge) watching tv and movies, playing tennis, rock climbing, and playing Monopoly Deal.
 
-AB
+ABC
