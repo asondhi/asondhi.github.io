@@ -3,9 +3,6 @@
 title: "Research"
 permalink: /research/
 author_profile: true
-redirect_from: 
-  - /research/
-  - /research.html
 ---
 
 * David Arbour, Drew Dimmery, and **Arjun Sondhi** (2020+). "Permutation Weighting". Under review.
