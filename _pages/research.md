@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-* David Arbour, Drew Dimmery, and **Arjun Sondhi** (2020+). "Permutation Weighting". Under review. [[arxix]](https://arxiv.org/abs/1901.01230)
+* David Arbour, Drew Dimmery, and **Arjun Sondhi** (2020+). "Permutation Weighting". Under review. [[arxiv]](https://arxiv.org/abs/1901.01230)
 * **Arjun Sondhi** and Ali Shojaie (2020+). "Two-way network penalized regression with applications to metabolomics profiling data". Under review.
 * Jean Feng, **Arjun Sondhi**, Jessica Perry, and Noah Simon (2020+). "Selective prediction-set models with coverage guarantees". Under review. [[arxiv]](https://arxiv.org/abs/1906.05473)
 * **Arjun Sondhi**, David Arbour, and Drew Dimmery (2020). ["Balanced off-policy evaluation in general action spaces"](http://proceedings.mlr.press/v108/sondhi20a.html). Published in *International Conference on Artificial Intelligence and Statistics (AISTATS 2020)*. [[arxiv]](https://arxiv.org/abs/1906.03694)
