@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Serge Aleshin-Guendel"
+title                    : "Arjun Sondhi"
 title_separator          : "-"
-name                     : &name "Serge Aleshin-Guendel"
-description              : &description "I'm a PhD student in the Department of Biostatistics at the University of Washington."
-url                      : https://aleshing.github.io
+name                     : &name "Arjun Sondhi"
+description              : &description "I'm a quantitative scientist at Flatiron Health in NYC."
+url                      : https://asondhi.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "aleshing/aleshing.github.io"
+repository               : "asondhi/asondhi.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -31,7 +31,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['Serge Aleshin-Guendel', 'aleshing@uw.edu', 'aleshing.github.io', 'message']
+  allowedFields          : ['Arjun Sondhi', 'a2sondhi@gmail.com', 'asondhi.github.io', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Serge Aleshin-Guendel"
-  avatar           : "serge.jpg"
+  name             : "Arjun Sondhi"
+  avatar           : "me.jpg"
   bio              : "He/Him/His"
   location         : 
-  employer         : "University of Washington"
+  employer         : "Flatiron Health"
   pubmed           :
-  googlescholar    : "https://scholar.google.com/citations?user=caVHF8wAAAAJ&hl=en"
-  email            : "aleshing@uw.edu"
+  googlescholar    : "https://scholar.google.com/citations?user=voqu53gAAAAJ"
+  email            : "a2sondhi@gmail.com"
   researchgate     :
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "aleshing"
+  github           : "asondhi"
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "aleshings"
+  twitter          : "arjson"
   vine             :
   weibo            :
   xing             :

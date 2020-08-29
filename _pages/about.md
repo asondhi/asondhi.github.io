@@ -8,9 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm a third year Ph.D. student in the [Department of Biostatistics](http://www.biostat.washington.edu/)  at the [University of Washington](https://www.washington.edu/), adivised by  [Mauricio Sadinle](http://faculty.washington.edu/msadinle/) and [Jon Wakefield](http://faculty.washington.edu/jonno/), broadly interested in improving the statistical methodology used in human rights research and child mortality estimation. To this end, my dissertation research focuses on record linkage, multiple-systems estimation (otherwise known as capture-recapture), and models for complex survey data.
+Hello! I'm currently a quantitiative scientist at [Flatiron Health](https://flatiron.com/) in New York, where I work on statistical methods for EHR data to support oncology research.
 
-During my first year I was a research assistant in [Ruth Etzioni's group](https://research.fhcrc.org/etzioni/en.html) at the Fred Hutchinson Cancer Research Center, where I worked on estimating risk factors for prostate cancer incidence in the presence of differential screening. Currently I'm a research assistant for [Susanne May](https://www.biostat.washington.edu/people/susanne-may), using record linkage to link emergency medical service records to electronic health records.
+I completed my PhD in the [Department of Biostatistics](http://www.biostat.washington.edu/)  at the [University of Washington](https://www.washington.edu/), where I worked with [Ali Shojaie](http://faculty.washington.edu/ashojaie/index.html) on causal inference and machine learning methods for analyzing network-structured data. Before starting my PhD, I graduated with a BMath from the [University of Waterloo](https://uwaterloo.ca/). I am proudly Canadian, and was born and raised in Mississauga, a suburb of Toronto, ON. 
 
-Originally from Maryland, I graduated from Boston College with a B.S. in Math and a B.A. in Computer Science. Outside of school, I enjoy drinking tea, (binge) watching tv and movies, playing tennis, rock climbing, and playing Monopoly Deal.
-
+In my spare time, I like to read fiction, watch extreme amounts of TV, listen to podcasts, and avoid the outdoors as much as possible (sometimes I'll go running). When time and money allow, I also love to travel, and spend an unhealthy amount of time searching for cheap flights and churning for credit card rewards.
