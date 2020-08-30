@@ -9,13 +9,15 @@ author_profile: true
 
 ![Bandit](/images/bandit.png)
 
+<img align="right" src="/images/bandit.png">
+
 In contextual bandit problems, actions are taken in response to some observed state in order to optimize a reward. Applications can be found in medicine, where personalized treatments are designed based on known patient history, and internet marketing, where advertisements can be tailored to user interests. The state-to-action mapping is known as a /policy/. In many practical applications, online learning is infeasible and practitioners must rely on off-policy evaluation (OPE) of logged data collected from prior policies. While recent work has made significant advances in using importance sampling for OPE, less attention has been paid to improving the quality of the importance weights themselves. 
 
 In this work we present balancing off-policy evaluation (B-OPE), a simple procedure that directly optimizes for balance and can be plugged into any OPE estimator that uses importance sampling. B-OPE directly estimates the importance sampling ratio via a classifier which attempts to distinguish state-action pairs from an observed versus a proposed policy. B-OPE can be applied to continuous, mixed, and multi-valued action spaces without modification and is easily scalable to many observations.
 
 A paper based on this work was published in the proceedings of the 2020 AISTATS conference.
 
-[Conference paper](http://proceedings.mlr.press/v108/sondhi20a.html) | [arXiv](https://arxiv.org/abs/1906.03694)
+[[Conference paper]](http://proceedings.mlr.press/v108/sondhi20a.html)    [[arXiv]](https://arxiv.org/abs/1906.03694)
 
 # High-dimensional estimation and inference with two-way network structure
 
