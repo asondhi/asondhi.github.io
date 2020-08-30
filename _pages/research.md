@@ -7,15 +7,13 @@ author_profile: true
 
 ## Counterfactual policy evaluation with balancing weights
 
-<img align="left" src="/images/bandit.png" style="width:200px;height:200px;">
-
 In contextual bandit problems, actions are taken in response to some observed state in order to optimize a reward. Applications can be found in medicine, where personalized treatments are designed based on known patient history, and internet marketing, where advertisements can be tailored to user interests. The state-to-action mapping is known as a /policy/. In many practical applications, online learning is infeasible and practitioners must rely on off-policy evaluation (OPE) of logged data collected from prior policies. While recent work has made significant advances in using importance sampling for OPE, less attention has been paid to improving the quality of the importance weights themselves. 
 
 In this work we present balancing off-policy evaluation (B-OPE), a simple procedure that directly optimizes for balance and can be plugged into any OPE estimator that uses importance sampling. B-OPE directly estimates the importance sampling ratio via a classifier which attempts to distinguish state-action pairs from an observed versus a proposed policy. B-OPE can be applied to continuous, mixed, and multi-valued action spaces without modification and is easily scalable to many observations.
 
 A paper based on this work was published in the proceedings of the 2020 AISTATS conference.
 
-[[Conference paper]](http://proceedings.mlr.press/v108/sondhi20a.html)  [[arXiv]](https://arxiv.org/abs/1906.03694)
+[[conference]](http://proceedings.mlr.press/v108/sondhi20a.html)  [[arxiv]](https://arxiv.org/abs/1906.03694)
 
 ## High-dimensional estimation and inference with two-way network structure
 
@@ -25,7 +23,7 @@ We develop a penalized regression framework to analyze high-dimensional two-way 
 
 An R package implementing this method is available on GitHub, and a paper based on this work is currently under review. A preprint is available on request.
 
-[[R library]](https://github.com/asondhi/glmfunk)
+[[github]](https://github.com/asondhi/glmfunk)
 
 ## Learning causal networks from observational data
 
@@ -35,7 +33,7 @@ We propose a new algorithm for estimating DAGs, which is a modified version of t
 
 A paper based on this work was published at the Journal of Machine Learning Research, and an earlier version was published in the proceedings of the 2016 IEEE DSAA conference.
 
-[[Journal paper]](http://jmlr.org/papers/v20/17-601.html)  [[arXiv]](https://arxiv.org/abs/1806.06209)  [[Conference paper]](http://ieeexplore.ieee.org/abstract/document/7796967/)
+[[journal]](http://jmlr.org/papers/v20/17-601.html)  [[arxiv]](https://arxiv.org/abs/1806.06209)  [[conference]](http://ieeexplore.ieee.org/abstract/document/7796967/)
 
 ## Association testing for rare genetic variants
 
@@ -45,5 +43,5 @@ In this work, we consider improved permutation-style tests which can be computed
 
 A paper based on this work has been published at the Annals of Human Genetics, and an R package implementing these tests is available on CRAN.
 
-[[Journal paper]](https://doi.org/10.1111/ahg.12229)  [[arXiv]](https://arxiv.org/abs/1712.06643) [[R library]](https://cran.r-project.org/package=AUtests)
+[[journal]](https://doi.org/10.1111/ahg.12229)  [[arxiv]](https://arxiv.org/abs/1712.06643) [[cran]](https://cran.r-project.org/package=AUtests)
 
