@@ -16,12 +16,15 @@ In my spare time, I like to read fiction, watch extreme amounts of TV, listen to
 
 # Preprints 
 
-* David Arbour, Drew Dimmery, and **Arjun Sondhi** (2020+). "Permutation Weighting". Under review. [[arxiv]](https://arxiv.org/abs/1901.01230)
-* **Arjun Sondhi** and Ali Shojaie (2020+). "Two-way network penalized regression with applications to metabolomics profiling data". Under review.
-* Jean Feng, **Arjun Sondhi**, Jessica Perry, and Noah Simon (2020+). "Selective prediction-set models with coverage guarantees". Under review. [[arxiv]](https://arxiv.org/abs/1906.05473)
+* **Arjun Sondhi** (2021+). "Estimating survival parameters under conditionally independent left truncation". Under review. [[arxiv]](https://arxiv.org/abs/2107.10911)
+* **Arjun Sondhi**, Olivier Humblet, and Akshay Swaminathan (2021+). "Quantifying bias from dependent left truncation in survival analyses of real world data". Under review. [[medrxiv]](https://www.medrxiv.org/content/10.1101/2021.08.02.21261492v2)
+* **Arjun Sondhi**, Si Cheng, and Ali Shojaie (2020+). "Doubly regularized generalized linear models for spatial observations with high-dimensional covariates". Under review.
 
 # Publications
 
+* Jean Feng, **Arjun Sondhi**, Jessica Perry, and Noah Simon (2021). ["Selective prediction-set models with coverage guarantees"](https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.13612). Published in *Biometrics*. [[arxiv]](https://arxiv.org/abs/1906.05473)
+* **Arjun Sondhi**, Brian Segal, Jeremy Snider, Olivier Humblet, and Margaret McCusker (2021). ["Bayesian additional evidence for decision making under small sample uncertainty"](https://link.springer.com/article/10.1186/s12874-021-01432-5). Published in *BMC Medical Research Methodology*.
+* David Arbour, Drew Dimmery, and **Arjun Sondhi** (2021). ["Permutation Weighting"](https://proceedings.mlr.press/v139/arbour21a.html). Published in *International Conference on Machine Learning (ICML 2021)*. [[arxiv]](https://arxiv.org/abs/1901.01230)
 * **Arjun Sondhi**, David Arbour, and Drew Dimmery (2020). ["Balanced off-policy evaluation in general action spaces"](http://proceedings.mlr.press/v108/sondhi20a.html). Published in *International Conference on Artificial Intelligence and Statistics (AISTATS 2020)*. [[arxiv]](https://arxiv.org/abs/1906.03694)
 * **Arjun Sondhi** and Ali Shojaie (2019). ["The Reduced PC-Algorithm: Improved Causal Structure Learning in Large Random Networks"](https://jmlr.org/papers/v20/17-601.html). Published in *Journal of Machine Learning Research*. [[arxiv]](https://arxiv.org/abs/1806.06209)
 * **Arjun Sondhi** and Kenneth M. Rice (2017). ["Fast permutation tests and related methods, for association between rare variants and binary outcomes"](https://onlinelibrary.wiley.com/doi/abs/10.1111/ahg.12229). Published in *Annals of Human Genetics*. [[arxiv]](https://arxiv.org/abs/1712.06643)
