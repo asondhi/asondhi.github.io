@@ -8,20 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm currently a quantitiative scientist at [Flatiron Health](https://flatiron.com/) in New York, where I work on statistical methods for EHR data to support oncology research.
+Hello! I'm currently a senior data scientist at [Flatiron Health](https://flatiron.com/) in New York, where I work with EHR data in support of oncology research and clinical care. I am broadly interested in applying statistical and machine learning methods to solve applied problems in healthcare.
 
 I completed my PhD in the [Department of Biostatistics](http://www.biostat.washington.edu/)  at the [University of Washington](https://www.washington.edu/), where I worked with [Ali Shojaie](http://faculty.washington.edu/ashojaie/index.html) on causal inference and machine learning methods for analyzing network-structured data. Before starting my PhD, I graduated with a BMath from the [University of Waterloo](https://uwaterloo.ca/). I am proudly Canadian, and was born and raised in Mississauga, a suburb of Toronto, ON. 
 
-In my spare time, I like to read fiction, watch extreme amounts of TV, listen to podcasts, and avoid the outdoors as much as possible (sometimes I'll go running). When time and money allow, I also love to travel, and spend an unhealthy amount of time searching for cheap flights and churning for credit card rewards.
 
-# Preprints 
+# Publications 
 
-* **Arjun Sondhi** (2021+). "Estimating survival parameters under conditionally independent left truncation". Under review. [[arxiv]](https://arxiv.org/abs/2107.10911)
-* **Arjun Sondhi**, Olivier Humblet, and Akshay Swaminathan (2021+). "Quantifying bias from dependent left truncation in survival analyses of real world data". Under review. [[medrxiv]](https://www.medrxiv.org/content/10.1101/2021.08.02.21261492v2)
-* **Arjun Sondhi**, Si Cheng, and Ali Shojaie (2020+). "Doubly regularized generalized linear models for spatial observations with high-dimensional covariates". Under review.
-
-# Publications
-
+* **Arjun Sondhi**, Alexander S Rich, Siruo Wang, and Jeffrey T Leek (2023). ["Postprediction Inference for Clinical Characteristics Extracted With Machine Learning on Electronic Health Records"](https://ascopubs.org/doi/full/10.1200/CCI.22.00174). Published in *JCO: Clinical Cancer Informatics*. 
+* Corey M Benedum, **Arjun Sondhi**, Erin Fidyk, Aaron B Cohen, Sheila Nemeth, Blythe Adamson, Melissa Estévez, and Selen Bozkurt (2023). ["Replication of Real-World Evidence in Oncology Using Electronic Health Record Data Extracted by Machine Learning"](https://www.mdpi.com/2072-6694/15/6/1853). Published in *Cancers*. 
+* **Arjun Sondhi**, Janick Weberpals, Chengsheng Jiang, Prakirthi Yerram, Michael Taylor, Meghna Samant, and Sarah T Cherng (2023). ["A systematic approach towards missing lab data in electronic health records: a case study in non-small cell lung cancer and multiple myeloma"](https://ascpt.onlinelibrary.wiley.com/doi/full/10.1002/psp4.12998). Published in *CPT: Pharmacometrics & Systems Pharmacology*. 
+* **Arjun Sondhi** (2022). ["Estimating survival parameters under conditionally independent left truncation"](https://onlinelibrary.wiley.com/doi/full/10.1002/pst.2202). Published in *Pharmaceutical Statistics*. [[arxiv]](https://arxiv.org/abs/2107.10911)
 * Jean Feng, **Arjun Sondhi**, Jessica Perry, and Noah Simon (2021). ["Selective prediction-set models with coverage guarantees"](https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.13612). Published in *Biometrics*. [[arxiv]](https://arxiv.org/abs/1906.05473)
 * **Arjun Sondhi**, Brian Segal, Jeremy Snider, Olivier Humblet, and Margaret McCusker (2021). ["Bayesian additional evidence for decision making under small sample uncertainty"](https://link.springer.com/article/10.1186/s12874-021-01432-5). Published in *BMC Medical Research Methodology*.
 * David Arbour, Drew Dimmery, and **Arjun Sondhi** (2021). ["Permutation Weighting"](https://proceedings.mlr.press/v139/arbour21a.html). Published in *International Conference on Machine Learning (ICML 2021)*. [[arxiv]](https://arxiv.org/abs/1901.01230)
