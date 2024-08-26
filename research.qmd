@@ -1,0 +1,23 @@
+---
+title: ""
+about:
+  template: marquee
+  image: images/research.jpg
+---
+
+I'm interested in using observational real-world data (RWD) from e.g., electronic medical records, insurance claims, and government registries to improve healthcare. 
+
+### How can RWD help design clinical trials?
+
+Real-world data can be used to improve the design of randomized clinical trials by learning about the demographics, treatment patterns, and disease natural history of the target population. Moreover, RWD can facilitate covariate adjustment to improve the precision of treatment effect estimates, by helping discover prognostic variables for the trial outcome.
+
+### How can RWD be used to improve clinical care?
+
+Predictive machine learning models can be trained on RWD to surface patients at elevated risk of adverse events (such as unexpected ICU visits), which can then be used to triage care resources. A more complex problem is applying causal machine learning for personalized clinical decisions, by learning casual effects for individual patients. Relatedly, combining clinical trial data with RWD allows learning the heterogeneity of treatment effects among different subpopulations.
+
+### How can RWD be used to learn about population health? 
+
+Observational studies are conducted to learn a variety of population parameters, such as comparative effectiveness of drugs that haven't been compared in clinical trials, generalizability of treatment effects, or access to care among subgroups. Analysis of RWD enables the answers to these questions, among others. However, RWD is subject to many data and statistical issues, including selection bias, missing data, and measurement error. Therefore, there is a need for analytic methods that can account for these, and answer research questions unbiasedly.
+
+
+

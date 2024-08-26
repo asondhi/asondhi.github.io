@@ -1,0 +1,23 @@
+project:
+  type: website
+  resources:
+    - files/cv.pdf
+
+website:
+  title: "Arjun Sondhi"
+  search: false
+
+  navbar:
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Publications"
+        href: publications.qmd
+
+format:
+  html:
+    theme: [sandstone, _variables.scss]
+    css: styles.css
+

@@ -1,0 +1,25 @@
+---
+title: "Arjun Sondhi"
+image: images/profile.jpg
+about:
+  template: trestles
+  links:
+    - text: linkedin
+      icon: linkedin
+      url: "https://linkedin.com/in/a2sondhi"
+    - text: github
+      icon: github
+      url: "https://github.com/asondhi"
+    - text: email
+      url: "mailto:asondhi@northwell.edu"
+    - text: cv
+      url: "files/cv.pdf"
+comments: false
+---
+
+Hello! I'm an assistant professor at the [Feinstein Institutes for Medical Research](https://feinstein.northwell.edu/). A biostatistician by training, I develop statistical and machine learning methods to solve applied problems in healthcare. My [research interests](research.qmd) focus on the use of observational real-world data to improve clinical research, healthcare delivery, and population health.
+
+I completed my PhD in the [Department of Biostatistics](http://www.biostat.washington.edu/)  at the [University of Washington](https://www.washington.edu/), where I worked with [Ali Shojaie](http://faculty.washington.edu/ashojaie/index.html) on causal inference and machine learning methods for analyzing network-structured data. After my PhD, I worked as a senior data scientist at [Flatiron Health](https://flatiron.com/), where I built data products from electronic medical records in support of oncology research and clinical care.
+
+I am based in New York City, and am always excited to talk about collaboration opportunities. Please reach out if we have shared interests!
+
