@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Arjun Sondhi - Publications</title>
+<title>Publications – Arjun Sondhi</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,7 +66,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Arjun Sondhi</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -117,7 +117,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>The most complete list of my publications can be likely found on my <a href="https://scholar.google.com/citations?user=voqu53gAAAAJ&amp;hl=en">Google Scholar</a> profile.</p>
 <ul>
+<li><p>Maneet Kaur, Filip Frahm, Yichen Lu, Mustafa S Ascha, Jenny S Guadamuz, Efrat Dotan, Adam S Gottesman, Barry C Leybovich, <strong>Arjun Sondhi</strong>, Yihua Zhao, Neal J Meropol, and Trevor J Royce (2024). <a href="https://evidence.nejm.org/doi/abs/10.1056/EVIDoa2300236">“Broadening Eligibility Criteria and Diversity among Patients for Cancer Clinical Trials”</a>. Published in <em>NEJM Evidence</em>.</p></li>
 <li><p><strong>Arjun Sondhi</strong>, Alexander S Rich, Siruo Wang, and Jeffrey T Leek (2023). <a href="https://ascopubs.org/doi/full/10.1200/CCI.22.00174">“Postprediction Inference for Clinical Characteristics Extracted With Machine Learning on Electronic Health Records”</a>. Published in <em>JCO: Clinical Cancer Informatics</em>.</p></li>
 <li><p>Corey M Benedum, <strong>Arjun Sondhi</strong>, Erin Fidyk, Aaron B Cohen, Sheila Nemeth, Blythe Adamson, Melissa Estévez, and Selen Bozkurt (2023). <a href="https://www.mdpi.com/2072-6694/15/6/1853">“Replication of Real-World Evidence in Oncology Using Electronic Health Record Data Extracted by Machine Learning”</a>. Published in <em>Cancers</em>.</p></li>
 <li><p><strong>Arjun Sondhi</strong>, Janick Weberpals, Chengsheng Jiang, Prakirthi Yerram, Michael Taylor, Meghna Samant, and Sarah T Cherng (2023). <a href="https://ascpt.onlinelibrary.wiley.com/doi/full/10.1002/psp4.12998">“A systematic approach towards missing lab data in electronic health records: a case study in non-small cell lung cancer and multiple myeloma”</a>. Published in <em>CPT: Pharmacometrics &amp; Systems Pharmacology</em>.</p></li>
@@ -169,18 +171,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -212,7 +203,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/asondhi\.github\.io\/");
@@ -220,7 +233,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
