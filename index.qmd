@@ -7,6 +7,8 @@ about:
     - text: linkedin
       icon: linkedin
       url: "https://linkedin.com/in/a2sondhi"
+    - text: scholar
+      url: "https://scholar.google.com/citations?user=voqu53gAAAAJ&hl=en"
     - text: github
       icon: github
       url: "https://github.com/asondhi"
